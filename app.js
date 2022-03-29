@@ -6,6 +6,10 @@ app.get("/home", (req, res) => {
     res.send("Pagina")
 });
 
+app.get("/Sobre", (req, res) => {
+    res.send("Pagina dizendo mais sobre o produto")
+});
+
 app.listen(port, () => {
     console.log("ta funcionando")
 })

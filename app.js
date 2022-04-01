@@ -16,4 +16,8 @@ app.get("/Termos", (req, res) => {
 
 app.listen(port, () => {
     console.log("ta funcionando")
-})
+});
+
+app.get( '/Cadastro', (req, res) => {
+res.send( ' Cadastro' )
+});

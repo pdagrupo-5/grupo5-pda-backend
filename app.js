@@ -14,9 +14,15 @@ app.get("/Termos", (req, res) => {
     res.send("Termos:")
 });
 
+app.get("/Teste", (req, res) => {
+    res.send("Teste pronto")
+});
+
 app.listen(port, () => {
     console.log("ta funcionando")
 });
+
+
 
 app.get( '/Cadastro', (req, res) => {
 res.send( ' Cadastro' )

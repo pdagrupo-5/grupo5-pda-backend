@@ -1,6 +1,6 @@
 const express = require("express");
 const port = 3800;
-const app = express()
+const app = express();
 
 app.get("/Home", (req, res) => {
     res.send("Pagina")
@@ -18,12 +18,11 @@ app.get("/Teste", (req, res) => {
     res.send("Teste pronto")
 });
 
+app.get("/Cadastro", (req, res) => {
+    res.send("Cadastro")
+});
+
 app.listen(port, () => {
     console.log("ta funcionando")
 });
 
-
-
-app.get( '/Cadastro', (req, res) => {
-res.send( ' Cadastro' )
-});

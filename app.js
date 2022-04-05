@@ -22,7 +22,12 @@ app.get("/Cadastro", (req, res) => {
     res.send("Cadastro")
 });
 
+app.get('/contato', (req, res) => {
+    res.send('contato')
+});
+
 app.listen(port, () => {
     console.log("ta funcionando")
 });
+
 

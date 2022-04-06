@@ -22,8 +22,8 @@ app.get("/Cadastro", (req, res) => {
     res.send("Cadastro")
 });
 
-app.get('/contato', (req, res) => {
-    res.send('contato')
+app.get("/Contato", (req, res) => {
+    res.send("Contato")
 });
 
 app.listen(port, () => {

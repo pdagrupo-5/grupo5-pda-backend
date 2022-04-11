@@ -6,6 +6,10 @@ app.get("/Home", (req, res) => {
     res.send("Pagina")
 });
 
+app.get("/Login", (req, res) =>{
+    res.send("Login")
+});
+
 app.get("/Sobre", (req, res) => {
     res.send("Pagina dizendo mais sobre o produto")
 });
